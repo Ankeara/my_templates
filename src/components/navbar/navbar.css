@@ -1,0 +1,147 @@
+.navbar {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 64px;
+  justify-content: space-between;
+  overflow: visible;
+  padding: 0 16px;
+  position: sticky;
+  width: 560px;
+  margin: 0 10px;
+  border-radius: 12px;
+  background-color: var(--navbar-color);
+  border-radius: 12px;
+  border-left-width: 1.267198085784912px;
+  border-right-width: 1.267198085784912px;
+  border-style: solid;
+  border-top-width: 1.267198085784912px;
+  border-bottom-width: 1.267198085784912px;
+  border-color: var(--border-color-dark);
+  box-shadow: rgba(10, 10, 10, 0.06) 0px 1.2px 1.2px 0px,
+    rgba(10, 10, 10, 0.04) 0px 5px 10px 0px;
+  opacity: 1;
+}
+
+.links {
+  display: flex;
+}
+
+.link {
+  position: relative;
+  display: inline-block; /* Ensure the Link behaves like a block to apply positioning */
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: 18px;
+  transition: all 0.4s ease-in-out;
+}
+
+.link:hover {
+  color: #ccc; /* Optional: Change color on hover */
+}
+
+.popup {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1px 3px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  font-size: 12px;
+}
+
+.link:hover .popup,
+.toggle_mode:hover .popup {
+  visibility: visible;
+  opacity: 1;
+}
+
+.right_navbar {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.right_navbar .toggle_mode {
+  margin-right: 20px;
+  position: relative;
+}
+
+.btn__hire {
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px 0px rgba(23, 23, 23, 0.1),
+    0px 1px 1px 0px rgba(23, 23, 23, 0.1),
+    inset 0px -1px 1px 0px var(--token-c93fecaa-85bb-485f-96b2-d17f825c9598, rgb(66, 66, 66)),
+    0px 0px 0px 0.1px
+      var(--token-757f4fa7-f392-458c-87d5-3ced56f0cbdf, rgba(0, 0, 0, 0.1));
+  opacity: 1;
+  background-color: var(--btn-hireme-color);
+  color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  height: 36px;
+  font-weight: 500;
+  overflow: visible;
+  padding: 0 12px 0 8px;
+  font-size: 14px;
+  position: relative;
+  text-decoration: none;
+  width: 115px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn__hire .plus {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 595px) {
+  .navbar {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 565px) {
+  .navbar {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    width: 370px;
+  }
+  .link {
+    padding: 0px 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar {
+    width: 350px;
+  }
+  .link {
+    padding: 0px;
+  }
+  .right_navbar .toggle_mode {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar {
+    width: 300px;
+  }
+}
