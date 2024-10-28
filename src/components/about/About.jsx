@@ -1,8 +1,6 @@
-import { useState } from 'react';
+
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
-import Mobile from '../../assets/mockup/mobile.jpg';
-import Website from '../../assets/mockup/website.png';
 import { Link } from 'react-router-dom';
 
 const About = () => {
