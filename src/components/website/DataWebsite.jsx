@@ -154,7 +154,7 @@ const DataWebsite = [
     title: "--- Short Cut To Use",
     github: "https://github.com/Ankeara/shortcut",
     figma: "https://www.figma.com/design/mN3PK7MNWxPEQHVQwbQDQq/Shortcut-to-use?m=dev&t=hKpM7lAc3So5kI4P-1",
-    website: "https://web-link-beta.vercel.app/#",
+    website: "https://shortcut-one.vercel.app/#",
   },
   {
     id:34,

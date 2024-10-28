@@ -11,6 +11,7 @@ function App() {
 
   const titles = {
   '/': 'Home -- Website And Mobile template for creator and designer',
+  '/about': 'About Me -- Project designer',
   '/mobile': 'Mobile -- Project designer',
   '/website': 'Website -- Project designer',
 };
