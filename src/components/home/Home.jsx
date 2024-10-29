@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from "../navbar/Navbar"
+import Footer from "../footer/Footer"
 import "./home.css"
 import Mobile from '../../assets/mockup/mobile.jpg'
 import Website from '../../assets/mockup/website.png'
@@ -82,6 +83,7 @@ const Home = () => {
           <TemplateCard to="/website" title="Website Template" imgSrc={Website} />
         </div>
       </section>
+      <Footer />
     </>
   );
 };

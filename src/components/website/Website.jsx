@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from "../navbar/Navbar"
+import Footer from "../footer/Footer"
 import DataWebsite from './DataWebsite'
 import { Link } from 'react-router-dom'
 
@@ -134,6 +135,7 @@ const Website = () => {
           ))}
         </div>
       </section>
+      <Footer />
     </>
   );
 };

@@ -1,5 +1,6 @@
 
 import Navbar from "../navbar/Navbar"
+import Footer from "../footer/Footer"
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -118,6 +119,7 @@ I design and develop services for customers of all sizes, specializing in creati
   </ul>
         </article>
       </section>
+      <Footer />
     </>
   );
 };
