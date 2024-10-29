@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
-import DataMobile from './DataMobile';
-import { Link } from 'react-router-dom';
+import { useState } from 'react'
+import Navbar from "../navbar/Navbar"
+import Footer from "../footer/Footer"
+import DataMobile from './DataMobile'
+import { Link } from 'react-router-dom'
 
 const TemplateCard = ({ to, title, imgSrc, github, figma, website }) => {
   const [rotation, setRotation] = useState({ rotateX: 0, rotateY: 0 });

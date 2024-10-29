@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
-import "./home.css";
-import Mobile from '../../assets/mockup/mobile.jpg';
-import Website from '../../assets/mockup/website.png';
-import { Link } from 'react-router-dom';
+import { useState } from 'react'
+import Navbar from "../navbar/Navbar"
+import Footer from "../footer/Footer"
+import "./home.css"
+import Mobile from '../../assets/mockup/mobile.jpg'
+import Website from '../../assets/mockup/website.png'
+import { Link } from 'react-router-dom'
 
 const TemplateCard = ({ to, title, imgSrc }) => {
   const [rotation, setRotation] = useState({ rotateX: 0, rotateY: 0 });
