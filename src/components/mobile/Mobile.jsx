@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Navbar from "../navbar/Navbar"
-import Footer from "../footer/Footer"
 import DataMobile from './DataMobile'
 import { Link } from 'react-router-dom'
 
@@ -137,7 +136,6 @@ const Mobile = () => {
           ))}
         </div>
       </section>
-      <Footer />
     </>
   );
 };
