@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Navbar from "../navbar/Navbar"
-import DataWebsite from './DataWebsite'
+import Data from './Data'
 import { Link } from 'react-router-dom'
 
 const TemplateCard = ({ title, imgSrc, github, figma, website }) => {
@@ -138,7 +138,7 @@ const Website = () => {
       </nav>
       <section className="bg-white text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-16 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2" id="template">
-          {DataWebsite.map((project) => (
+          {Data.map((project) => (
             <TemplateCard 
               key={project.id} 
               title={project.title} 

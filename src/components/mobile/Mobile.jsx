@@ -63,7 +63,7 @@ const Mobile = () => {
   return (
     <>
       <Navbar />
-        <nav aria-label="Breadcrumb " className='flex items-center justify-center mt-5'>
+      <nav aria-label="Breadcrumb " className='flex items-center justify-center mt-5'>
         <ol className="flex items-center gap-1 text-sm text-gray-500 text-3xl font-bold">
           <li>
             <Link to="/" className="block transition hover:text-gray-700">
@@ -118,6 +118,22 @@ const Mobile = () => {
 
           <li>
             <Link to="/website" href="#" className="block transition hover:text-gray-700"> Website Template </Link>
+          </li>
+          <li className="rtl:rotate-180">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="size-4"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="m9 20.247 6-16.5" />
+            </svg>
+          </li>
+
+          <li>
+            <Link to="/database" href="#" className="block transition hover:text-gray-700"> Database Template </Link>
           </li>
         </ol>
       </nav>

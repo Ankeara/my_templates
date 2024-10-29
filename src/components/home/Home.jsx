@@ -3,6 +3,7 @@ import Navbar from "../navbar/Navbar"
 import "./home.css"
 import Mobile from '../../assets/mockup/mobile.jpg'
 import Website from '../../assets/mockup/website.png'
+import Database from '../../assets/mockup/database.png'
 import { Link } from 'react-router-dom'
 
 const TemplateCard = ({ to, title, imgSrc }) => {
@@ -80,6 +81,7 @@ const Home = () => {
         <div className="mx-auto max-w-screen-xl px-4 py-16 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2" id="template">
           <TemplateCard to="/mobile" title="Mobile Template" imgSrc={Mobile} />
           <TemplateCard to="/website" title="Website Template" imgSrc={Website} />
+          <TemplateCard to="/database" title="Database Template" imgSrc={Database} />
         </div>
       </section>
     </>

@@ -4,6 +4,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Mobile from './components/mobile/Mobile';
 import Website from './components/website/Website';
+import Database from './components/database/Database';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   '/about': 'About Me -- Project designer',
   '/mobile': 'Mobile -- Project designer',
   '/website': 'Website -- Project designer',
+  '/database': 'Database -- Project designer',
 };
 
 useEffect(() => {
@@ -26,6 +28,7 @@ useEffect(() => {
       <Route path="/about" element={<About />} />
       <Route path="/mobile" element={<Mobile />} />
       <Route path="/website" element={<Website />} />
+      <Route path="/database" element={<Database />} />
     </Routes>
   );
 }
