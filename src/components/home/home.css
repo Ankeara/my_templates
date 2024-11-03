@@ -1,0 +1,24 @@
+.custom-cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #6ee7b7,
+    #3b82f6
+  ); /* Gradient background */
+  pointer-events: none; /* Prevent interference with mouse events */
+  transform: translate(-50%, -50%); /* Center the cursor */
+  transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.tooltip {
+  position: fixed;
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  pointer-events: none; /* Prevents interaction */
+  transform: translate(-50%, 0);
+}
